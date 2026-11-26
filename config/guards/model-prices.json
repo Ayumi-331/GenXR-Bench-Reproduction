@@ -1,0 +1,14 @@
+{
+  "deepseek/deepseek-flash": {
+    "litellm_provider": "deepseek",
+    "mode": "chat",
+    "max_input_tokens": 1048576,
+    "max_output_tokens": 393216,
+    "max_tokens": 393216,
+    "input_cost_per_token": 3e-7,
+    "cache_read_input_token_cost": 6e-9,
+    "output_cost_per_token": 0.0000012,
+    "supports_function_calling": true,
+    "supports_reasoning": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task": "product-visualizer",
+  "app_height_m": 0.75,
+  "scene_height_m": 0.79,
+  "task_prompt_gives_numeric_height": false,
+  "official_initial_tolerance_m_strictly_less_than": 0.04,
+  "scope": "human diagnostic copy only",
+  "snapshots": {
+    "original": {
+      "validity": "valid",
+      "runnable": true,
+      "score": 0,
+      "passed_hand_runs": 0,
+      "total_hand_runs": 2,
+      "reward": 0
+    },
+    "diagnostic": {
+      "validity": "valid",
+      "runnable": true,
+      "score": 0,
+      "passed_hand_runs": 1,
+      "total_hand_runs": 2,
+      "reward": 0
+    }
+  }
+}

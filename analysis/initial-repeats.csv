@@ -1,0 +1,11 @@
+order,sample,pair,hand,hand_outcome,pair_validity,official_pair_reward,verified_stop_line,assertions_passed,assertions_failed,assertions_not_reached,marker_color_check
+1,01R,1,right,failed,valid,0,127,15,1,4,not_reached
+2,01L,1,left,failed,valid,0,144,19,1,0,failed
+3,02R,2,right,failed,valid,0,127,15,1,4,not_reached
+4,02L,2,left,passed,valid,0,,20,0,0,passed
+5,03R,3,right,failed,valid,0,127,15,1,4,not_reached
+6,03L,3,left,passed,valid,0,,20,0,0,passed
+7,04R,4,right,failed,valid,0,127,15,1,4,not_reached
+8,04L,4,left,passed,valid,0,,20,0,0,passed
+9,05R,5,right,failed,valid,0,127,15,1,4,not_reached
+10,05L,5,left,passed,valid,0,,20,0,0,passed

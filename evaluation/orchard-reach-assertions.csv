@@ -1,0 +1,13 @@
+hand,case,source_lines,check,result,evidence,evidence_video
+right,"The apple enters the basket, the corridor turns green, and progress increases",82-105,可找到至少一个苹果，按离当前路径中心最近选取,通过,后续动作已执行，说明前置查找与数量断言已返回。,media/orchard-reach/orchard-reach-basket-right.mp4
+right,"The apple enters the basket, the corridor turns green, and progress increases",25-29,伸手、按住、移至篮子中心上方10厘米、松手、等待,动作序列已执行,录像动作清单只证明模拟操作发出；苹果状态由后续断言裁定。,media/orchard-reach/orchard-reach-basket-right.mp4
+right,"The apple enters the basket, the corridor turns green, and progress increases",30-42,两张图片联合判断苹果入篮、路径变绿、进度显示1 of 6,待 Gemini 评测,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,media/orchard-reach/orchard-reach-basket-right.mp4
+left,"The apple enters the basket, the corridor turns green, and progress increases",82-105,可找到至少一个苹果，按离当前路径中心最近选取,通过,后续动作已执行，说明前置查找与数量断言已返回。,media/orchard-reach/orchard-reach-basket-left.mp4
+left,"The apple enters the basket, the corridor turns green, and progress increases",25-29,伸手、按住、移至篮子中心上方10厘米、松手、等待,动作序列已执行,录像动作清单只证明模拟操作发出；苹果状态由后续断言裁定。,media/orchard-reach/orchard-reach-basket-left.mp4
+left,"The apple enters the basket, the corridor turns green, and progress increases",30-42,两张图片联合判断苹果入篮、路径变绿、进度显示1 of 6,待 Gemini 评测,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,media/orchard-reach/orchard-reach-basket-left.mp4
+right,an apple that falls outside the basket returns to its branch,82-105,可找到至少一个苹果，按离当前路径中心最近选取,通过,后续动作已执行，说明前置查找与数量断言已返回。,media/orchard-reach/orchard-reach.mp4
+right,an apple that falls outside the basket returns to its branch,59-67,按住时苹果离开原位置超过10厘米,失败,expected 0 to be greater than 0.1,media/orchard-reach/orchard-reach.mp4
+right,an apple that falls outside the basket returns to its branch,68-75,篮外松手两秒后苹果距原枝位不超过5厘米,未执行,见前一断言与录像动作序列。,media/orchard-reach/orchard-reach.mp4
+right,an apple that falls outside the basket returns to its branch,76,苹果仍可见,未执行,未获该项的独立通过证据。,media/orchard-reach/orchard-reach.mp4
+right,an apple that falls outside the basket returns to its branch,77,当前引导路径仍可见,未执行,未获该项的独立通过证据。,media/orchard-reach/orchard-reach.mp4
+right,an apple that falls outside the basket returns to its branch,78,篮子仍可见,未执行,未获该项的独立通过证据。,media/orchard-reach/orchard-reach.mp4

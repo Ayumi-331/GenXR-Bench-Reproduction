@@ -1,0 +1,15 @@
+hand,case,source_lines,check,result,evidence,evidence_video
+right,f2p.test.ts:test-1,22,恰有3个 focus-screen,passed,3，由通过的等式确定 原版用例通过，三次独立指向见录像清单,media/focus-mode/focus-mode-right.mp4
+right,f2p.test.ts:test-1,31,该屏幕可取得可见包围盒的中心,passed,"指向的中心（米） [-0.9, 1.48, -1.55] 源码先检查中心，随后传入 pointTo；清单保留了实际目标",media/focus-mode/focus-mode-right.mp4
+right,f2p.test.ts:test-1,45,抬手后屏幕世界坐标的三维净位移严格超过0.03米,passed,大于0.03米；未记录精确屏幕位移。0.12米为模拟手部输入 用例完整通过，依次执行三次位移断言；帧对应上移后的两帧等待,media/focus-mode/focus-mode-right.mp4
+right,f2p.test.ts:test-1,31,该屏幕可取得可见包围盒的中心,passed,"指向的中心（米） [0, 1.48, -1.35] 源码先检查中心，随后传入 pointTo；清单保留了实际目标",media/focus-mode/focus-mode-right.mp4
+right,f2p.test.ts:test-1,45,抬手后屏幕世界坐标的三维净位移严格超过0.03米,passed,大于0.03米；未记录精确屏幕位移。0.12米为模拟手部输入 用例完整通过，依次执行三次位移断言；帧对应上移后的两帧等待,media/focus-mode/focus-mode-right.mp4
+right,f2p.test.ts:test-1,31,该屏幕可取得可见包围盒的中心,passed,"指向的中心（米） [0.9, 1.48, -1.55] 源码先检查中心，随后传入 pointTo；清单保留了实际目标",media/focus-mode/focus-mode-right.mp4
+right,f2p.test.ts:test-1,45,抬手后屏幕世界坐标的三维净位移严格超过0.03米,passed,大于0.03米；未记录精确屏幕位移。0.12米为模拟手部输入 用例完整通过，依次执行三次位移断言；帧对应上移后的两帧等待,media/focus-mode/focus-mode-right.mp4
+left,f2p.test.ts:test-1,22,恰有3个 focus-screen,passed,3，由通过的等式确定 原版用例通过，三次独立指向见录像清单,media/focus-mode/focus-mode-left.mp4
+left,f2p.test.ts:test-1,31,该屏幕可取得可见包围盒的中心,passed,"指向的中心（米） [-0.9, 1.48, -1.55] 源码先检查中心，随后传入 pointTo；清单保留了实际目标",media/focus-mode/focus-mode-left.mp4
+left,f2p.test.ts:test-1,45,抬手后屏幕世界坐标的三维净位移严格超过0.03米,passed,大于0.03米；未记录精确屏幕位移。0.12米为模拟手部输入 用例完整通过，依次执行三次位移断言；帧对应上移后的两帧等待,media/focus-mode/focus-mode-left.mp4
+left,f2p.test.ts:test-1,31,该屏幕可取得可见包围盒的中心,passed,"指向的中心（米） [0, 1.48, -1.35] 源码先检查中心，随后传入 pointTo；清单保留了实际目标",media/focus-mode/focus-mode-left.mp4
+left,f2p.test.ts:test-1,45,抬手后屏幕世界坐标的三维净位移严格超过0.03米,passed,大于0.03米；未记录精确屏幕位移。0.12米为模拟手部输入 用例完整通过，依次执行三次位移断言；帧对应上移后的两帧等待,media/focus-mode/focus-mode-left.mp4
+left,f2p.test.ts:test-1,31,该屏幕可取得可见包围盒的中心,passed,"指向的中心（米） [0.9, 1.48, -1.55] 源码先检查中心，随后传入 pointTo；清单保留了实际目标",media/focus-mode/focus-mode-left.mp4
+left,f2p.test.ts:test-1,45,抬手后屏幕世界坐标的三维净位移严格超过0.03米,passed,大于0.03米；未记录精确屏幕位移。0.12米为模拟手部输入 用例完整通过，依次执行三次位移断言；帧对应上移后的两帧等待,media/focus-mode/focus-mode-left.mp4

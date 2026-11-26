@@ -1,0 +1,4 @@
+task,difficulty,first_job_delivered,first_actual_generation_submitted,runnable,validity,effective_reward,wrapper_reward,official_api_design_score,web_raw_design_mean,web_evidence_accepted_mean,model,requested_effort,documented_effective_effort,turns,bash,input_tokens,output_tokens,total_tokens,cache_hit_input,agent_seconds,time_window_estimate_usd,invoice_usd,test_turns,edit_turns,te_approx
+focus-mode,easy,1,1,1,valid,1,1,,3.50,,deepseek-flash,xhigh,high,30,49,1651820,19023,1670843,1586432,221.534,0.025981296,,12,2,6.00
+orchard-reach,medium,0,1,1,invalid,,0,,2.60,,deepseek-flash,xhigh,high,80,98,9128537,75720,9204257,9014912,766.081,0.179040972,,34,19,1.79
+digital-beerpong,hard,1,1,1,invalid,,0,,5.00,,deepseek-flash,xhigh,high,117,133,16640934,85000,16725934,16476032,1180.37,0.250326792,,36,39,0.92

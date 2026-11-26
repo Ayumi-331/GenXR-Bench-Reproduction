@@ -1,0 +1,53 @@
+{
+  "focus-mode": {
+    "index.html": {
+      "sha256": "427972969472c009c041e4bc79283495a9bac0c7f4a2f9220eb7dadc3ce71794",
+      "changed_from_starter": false,
+      "starter_sha256": "427972969472c009c041e4bc79283495a9bac0c7f4a2f9220eb7dadc3ce71794"
+    },
+    "main.js": {
+      "sha256": "885af35fbd30f546c7e4fe48ea97927ccd56f2320bfe8419404f84c81e62f460",
+      "changed_from_starter": true,
+      "starter_sha256": "6e8023f5703ed86836e12811ef6bcaadb316e70030b11c876e7153eea260b669"
+    },
+    "package.json": {
+      "sha256": "2f57dbf7ef390830ec50df6f1a1d221c7ec0cef4ca4c0f861654ad7730a213ef",
+      "changed_from_starter": false,
+      "starter_sha256": "2f57dbf7ef390830ec50df6f1a1d221c7ec0cef4ca4c0f861654ad7730a213ef"
+    }
+  },
+  "orchard-reach": {
+    "index.html": {
+      "sha256": "4c0b4ef14e380531722f58c117cc7996be18e0a818bb2867fe9000455a881269",
+      "changed_from_starter": true,
+      "starter_sha256": "427972969472c009c041e4bc79283495a9bac0c7f4a2f9220eb7dadc3ce71794"
+    },
+    "main.js": {
+      "sha256": "714400b107e4755aa218991b1a1530367784edd66d5d752ca9f47369e494fdc4",
+      "changed_from_starter": true,
+      "starter_sha256": "6e8023f5703ed86836e12811ef6bcaadb316e70030b11c876e7153eea260b669"
+    },
+    "package.json": {
+      "sha256": "2f57dbf7ef390830ec50df6f1a1d221c7ec0cef4ca4c0f861654ad7730a213ef",
+      "changed_from_starter": false,
+      "starter_sha256": "2f57dbf7ef390830ec50df6f1a1d221c7ec0cef4ca4c0f861654ad7730a213ef"
+    }
+  },
+  "digital-beerpong": {
+    "index.html": {
+      "sha256": "dbcb071d76a36b2a201af8ee80a439508dabc16ec666502e8c38cb08131cba9a",
+      "changed_from_starter": true,
+      "starter_sha256": "427972969472c009c041e4bc79283495a9bac0c7f4a2f9220eb7dadc3ce71794"
+    },
+    "main.js": {
+      "sha256": "87cc2a2feafcf65ac15630df5a80fef6be8ccb27f7bba1abaa68dd3522dcb2f5",
+      "changed_from_starter": true,
+      "starter_sha256": "6e8023f5703ed86836e12811ef6bcaadb316e70030b11c876e7153eea260b669"
+    },
+    "package.json": {
+      "sha256": "2f57dbf7ef390830ec50df6f1a1d221c7ec0cef4ca4c0f861654ad7730a213ef",
+      "changed_from_starter": false,
+      "starter_sha256": "2f57dbf7ef390830ec50df6f1a1d221c7ec0cef4ca4c0f861654ad7730a213ef"
+    }
+  }
+}

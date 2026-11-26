@@ -1,0 +1,94 @@
+{
+  "upstream_commit": "ea31e2c2b23884f7ab810de31a755b273e996770",
+  "upstream": "https://github.com/whuang37/genxr-bench",
+  "registered": "2026-11-25",
+  "selection": "purposive: new tasks, one easy/medium/hard in distinct domains; deterministic local case available in each; no scores used",
+  "task_order": [
+    "focus-mode",
+    "orchard-reach",
+    "digital-beerpong"
+  ],
+  "unit": "one independently initialized first generation per named task; hands are within-task runs",
+  "versions": {
+    "harbor": "0.18.0",
+    "mini-swe-agent": "2.4.6",
+    "litellm": "1.110.2",
+    "openai_python": "3.57.0",
+    "python": "3.12.16",
+    "xrblocks": "0.21.0",
+    "xrblocks-devtools": "38221f1b077dcb4ba0c24259e3a7aadf26580ccd",
+    "docker_desktop": "4.99.0",
+    "docker_engine": "29.9.3",
+    "host": "Windows with WSL2 Ubuntu"
+  },
+  "policy": {
+    "model": "deepseek-flash",
+    "provider": "DeepSeek official",
+    "request_effort": "xhigh",
+    "documented_effective_effort": "high",
+    "thinking": "enabled",
+    "generation_limit_s": 7200,
+    "verifier_limit_s": 3600,
+    "http_timeout_s": 240,
+    "requests_per_task": 128,
+    "max_output_tokens": 32768,
+    "max_budget_usd": "1.50",
+    "stop_before_next_call_at_peak_usd": "1.14",
+    "max_in_flight_usd": "0.3538944",
+    "peak_guard_envelope_usd": "1.4938944",
+    "attempts_per_task": 1,
+    "automatic_retries": 0,
+    "paid_judge_calls_in_scope": 0,
+    "generation_image_id": "sha256:12ceb4f1b856a6710f9564a6239bd01e0c8119b555f75547f6c15f8eb191b972"
+  },
+  "evidence": {
+    "focus-mode": {
+      "official_task_tree_git": "ff36ed77c456ec5fa767e34ca2d37eeb2573f184",
+      "official_files": {
+        "instruction.md": "0cc8d222688938c5e0ae8409462ae43a7b55074028cfa6afa50d6bac455d5e1e",
+        "tests/test.sh": "6c36c1916e5f9d8441da1f8bc6379b3a75c8f20b61754de72aac8965726c62f4",
+        "tests/llm_judge.py": "4f3f3a204b79dc90221fb1cdbb04143ea615219d6daae6865744d243da00994b",
+        "task.toml": "5b934760d7df3ae1c3b8d60419984c3e42b9290f182a1ee99cee38fc65750583",
+        "tests/f2p.test.ts": "ffd2b34d4da7f804b0f7dcff4c12c13a490eca7a029a14dd5c9278d0309bd738"
+      },
+      "receipt_ledger_sha256": "d6e56e861d5c750dad50e3e155ba19afcdd8538691d801c579121c428f78c03a",
+      "redacted_wire_index_parent_sha256": "b2814814db60194c76cbf2078b0dfa24cfb83b75299a0a5d53b6f0278869fe46",
+      "original_verifier_result_sha256": "32f4e42753c9e75ce6433d561f466c273148652e4b19b25aa46d40e68c40f935",
+      "task_prompt_sha256": "0cc8d222688938c5e0ae8409462ae43a7b55074028cfa6afa50d6bac455d5e1e",
+      "agent_system_prompt_sha256": "1c5d1622923d128240923e4695f21917b90c5058c1f48796de3ec2e60685f216",
+      "bash_tool_sha256": "fa3f9e719935ffb5dbdccb5f58ed0a413553c7ceb651f8a6afd0ac8f01783cc4"
+    },
+    "orchard-reach": {
+      "official_task_tree_git": "66b9b0278571e3c52dff2c820cfdf4575c6c3dc7",
+      "official_files": {
+        "instruction.md": "dc324ca6dbf03c8093002eddbd519f73f1bfbacdbc088ed03e24c616b236e536",
+        "tests/test.sh": "6c36c1916e5f9d8441da1f8bc6379b3a75c8f20b61754de72aac8965726c62f4",
+        "tests/llm_judge.py": "4f3f3a204b79dc90221fb1cdbb04143ea615219d6daae6865744d243da00994b",
+        "task.toml": "71eb75065f8cde2d0c572531e9b25737e8918d926ade32f981be5e119f586330",
+        "tests/f2p.test.ts": "e269dc0c4d5a3211dfe3e4b4d34aeb71a1754d141535219c596501c1cc20b71e"
+      },
+      "receipt_ledger_sha256": "27c4aea5ac9b9be88001be7a2df41b16b6e93290c73fbd022ba892c27caa9b47",
+      "redacted_wire_index_parent_sha256": "b09fb474dbc929ab13c5ec8c564de12220a2c0230f7941e823f0be3395aa402d",
+      "original_verifier_result_sha256": "79af3c75392a02a93be4f44aab4a171ad5d691914f94b5728ef0c4806c8a101d",
+      "task_prompt_sha256": "dc324ca6dbf03c8093002eddbd519f73f1bfbacdbc088ed03e24c616b236e536",
+      "agent_system_prompt_sha256": "1c5d1622923d128240923e4695f21917b90c5058c1f48796de3ec2e60685f216",
+      "bash_tool_sha256": "fa3f9e719935ffb5dbdccb5f58ed0a413553c7ceb651f8a6afd0ac8f01783cc4"
+    },
+    "digital-beerpong": {
+      "official_task_tree_git": "c1b7beed9c177aabe19319c936be7cea65d55979",
+      "official_files": {
+        "instruction.md": "0b3772c462302e709884a0d898a8d43d8c74ec709985fd29d6bf911e43567f1d",
+        "tests/test.sh": "6c36c1916e5f9d8441da1f8bc6379b3a75c8f20b61754de72aac8965726c62f4",
+        "tests/llm_judge.py": "4f3f3a204b79dc90221fb1cdbb04143ea615219d6daae6865744d243da00994b",
+        "task.toml": "05c5ce7400d45b875cf6740c5767bb8eab5fdd6e3b9d860404bb3fa3571168c4",
+        "tests/f2p.test.ts": "cf4cdfbbd2f8d6e7b4f269081b709ac88acef2577a5f8ced37d6f36db4e94951"
+      },
+      "receipt_ledger_sha256": "3d9e1748a44c79fd8f4f44c2b910db684ac48b73068b8be8972baccf1b4e26bc",
+      "redacted_wire_index_parent_sha256": "ca900163da182946683251ba0c16813b9e30c1057908d6bcd6e49d7188b6082b",
+      "original_verifier_result_sha256": "c0e698f7bb6b3dd3ed77f0fc94702f0107e7cbe75f39d9d35a744e7e7fb845c1",
+      "task_prompt_sha256": "0b3772c462302e709884a0d898a8d43d8c74ec709985fd29d6bf911e43567f1d",
+      "agent_system_prompt_sha256": "1c5d1622923d128240923e4695f21917b90c5058c1f48796de3ec2e60685f216",
+      "bash_tool_sha256": "fa3f9e719935ffb5dbdccb5f58ed0a413553c7ceb651f8a6afd0ac8f01783cc4"
+    }
+  }
+}

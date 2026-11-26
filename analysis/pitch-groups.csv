@@ -1,0 +1,11 @@
+pitch,hand,n,sdk_hits,grab,observer_interrupted,full,valid_n,final_footprint_outside,final_center_outside
+1,left,3,3,0,0,0,3,0,0
+1,right,3,3,0,0,0,3,0,0
+0,left,3,3,3,0,3,3,3,3
+0,right,3,3,3,0,3,3,3,3
+-1,left,3,3,3,0,3,3,3,3
+-1,right,3,3,3,0,3,3,3,3
+-5,left,3,3,3,0,1,3,1,1
+-5,right,3,3,3,0,0,3,0,0
+-15,left,3,3,3,1,0,2,0,0
+-15,right,3,3,3,0,1,3,1,0

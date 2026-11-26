@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.log
+node_modules/
+jobs/
+replays/
+vendor/
+.release-private/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+task,job,generation_zh,submitted,evaluation,effective_reward,saved_model_replies,bash_results,reason_zh
+bubble-pop,1,运行中断，保留轨迹,False,未评测,,23,56,Harbor RuntimeError，Docker Desktop 无法启动
+bubble-pop,2,独立重跑产出可运行应用,True,valid,0,69,95,候选应用：双手均遇到失效场景对象
+astraphobia-oasis,1,安装阶段结束，Agent执行未开始,False,未评测,,0,0,AgentSetupTimeoutError
+astraphobia-oasis,2,安装阶段结束，Agent执行未开始,False,未评测,,0,0,NonZeroAgentExitCodeError；依赖安装期间暂停
+astraphobia-oasis,3,独立重跑产出可运行应用,True,invalid,,83,111,评测基础设施：自适应演员缺少 Gemini 凭证
+product-visualizer,1,首次中止，启动模板未改,False,未评测,,30,44,本地推理字段保护，在第31次本地查询时停止
+product-visualizer,2,从模板独立重跑，可运行封存快照,False,valid,0,98,109,98次请求封顶；原始快照箱底与桌面间距断言失败

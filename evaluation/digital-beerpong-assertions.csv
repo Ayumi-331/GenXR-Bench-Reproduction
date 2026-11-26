@@ -1,0 +1,18 @@
+hand,case,source_lines,check,result,evidence,evidence_video
+right,f2p.test.ts:test-1,20,至少一个带指定标签的杯子,通过,原版用例在找到杯子后才能面向目标。,media/digital-beerpong/digital-beerpong-right.mp4
+right,f2p.test.ts:test-1,24–33,杯子上方捏合、向下释放并等待,动作已执行,记录模拟输入；进球由后续图片裁判判断。,media/digital-beerpong/digital-beerpong-right.mp4
+right,f2p.test.ts:test-1,34–42,六杯自动布局及投中反馈,待 Gemini 评测,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,media/digital-beerpong/digital-beerpong-right.mp4
+left,f2p.test.ts:test-1,20,至少一个带指定标签的杯子,通过,原版用例在找到杯子后才能面向目标。,media/digital-beerpong/digital-beerpong-left.mp4
+left,f2p.test.ts:test-1,24–33,杯子上方捏合、向下释放并等待,动作已执行,记录模拟输入；进球由后续图片裁判判断。,media/digital-beerpong/digital-beerpong-left.mp4
+left,f2p.test.ts:test-1,34–42,六杯自动布局及投中反馈,待 Gemini 评测,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,media/digital-beerpong/digital-beerpong-left.mp4
+right,f2p.test.ts:test-2,60,至少一个带指定标签的杯子,通过,原版用例在找到杯子后才能面向目标。,media/digital-beerpong/digital-beerpong-miss.mp4
+right,f2p.test.ts:test-2,75,投失后等待一秒，场景中有一个球,失败,等待 1000 毫秒后找到 0 个带标签的球，要求恰有 1 个。,media/digital-beerpong/digital-beerpong-miss.mp4
+right,f2p.test.ts:test-2,78,清理后带标签的球数量为零,未执行,原版用例停于第 75 行。,media/digital-beerpong/digital-beerpong-miss.mp4
+right,f2p.test.ts:test-2,82,点击 Replay 后带标签的球数量为零,未执行,原版用例停于第 75 行。,media/digital-beerpong/digital-beerpong-miss.mp4
+right,f2p.test.ts:test-2,85–98,清理画面及 Replay 恢复六杯,未执行,首个球数量断言已使此用例停止。,media/digital-beerpong/digital-beerpong-miss.mp4
+right,f2p.test.ts:test-3,"114,162–174",慢投找到一个球并测量其 100 毫秒水平位移,通过,程序完成测量。,media/digital-beerpong/digital-beerpong-velocity-right.mp4
+right,f2p.test.ts:test-3,"118,162–174",快投找到一个球并测量其 100 毫秒水平位移,通过,程序完成测量。,media/digital-beerpong/digital-beerpong-velocity-right.mp4
+right,f2p.test.ts:test-3,120,快投水平位移严格大于慢投,通过,原版用例通过，成功路径不打印距离。,media/digital-beerpong/digital-beerpong-velocity-right.mp4
+left,f2p.test.ts:test-3,"114,162–174",慢投找到一个球并测量其 100 毫秒水平位移,通过,程序完成测量。,media/digital-beerpong/digital-beerpong-velocity-left.mp4
+left,f2p.test.ts:test-3,"118,162–174",快投找到一个球并测量其 100 毫秒水平位移,通过,程序完成测量。,media/digital-beerpong/digital-beerpong-velocity-left.mp4
+left,f2p.test.ts:test-3,120,快投水平位移严格大于慢投,通过,原版用例通过，成功路径不打印距离。,media/digital-beerpong/digital-beerpong-velocity-left.mp4

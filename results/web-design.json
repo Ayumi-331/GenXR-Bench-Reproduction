@@ -1,0 +1,257 @@
+{
+  "focus-mode": {
+    "visible_mode": "Auto",
+    "backend_model": null,
+    "raw_response_json_sha256": "876a4ea33f82f5240378420cb6228b26f457f1fb14498972e685dffa204b11ec",
+    "raw_ten_item_mean": 3.5,
+    "evidence_accepted_mean": null,
+    "official_api_design_score": null,
+    "evidence_counts": {
+      "conflict": 4,
+      "supported": 5,
+      "partial": 1
+    },
+    "items": [
+      {
+        "dimension": "prompt_alignment",
+        "raw_score": 3,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "两段 0 秒均有三块不透明外观的矩形屏。第 3 秒蓝屏抬高，随后绿屏和右侧暖色屏也依次接受抬升测试。网页以无法移动为扣分依据，该理由与画面及官方程序相冲突。",
+        "web_reason_paraphrase_en": "Three panels are visible, but the reviewer says neither hand can move them at 3 s."
+      },
+      {
+        "dimension": "visual_quality",
+        "raw_score": 4,
+        "evidence_status": "supported",
+        "evidence_note_zh": "两段 0 秒可见蓝、青绿、暖棕橙三块色面，轮廓清楚。转向左屏后，表面和边缘仍可辨认。",
+        "web_reason_paraphrase_en": "The two recordings show clean colors and crisp geometry throughout."
+      },
+      {
+        "dimension": "spatial_anchoring",
+        "raw_score": 4,
+        "evidence_status": "partial",
+        "evidence_note_zh": "0 到 1 秒视角转向左屏；在之后的静置段，屏幕与房间参照物之间可见的位置关系稳定。被主动上移的屏幕在操作中发生预期位移。",
+        "web_reason_paraphrase_en": "The reviewer describes the panels as static and rigidly anchored throughout."
+      },
+      {
+        "dimension": "scale_consistency",
+        "raw_score": 4,
+        "evidence_status": "supported",
+        "evidence_note_zh": "0 秒三块屏幕的尺度与客厅家具可作比较，外观大小协调。另查封存应用，三块屏共用 0.90 × 0.58 米的面板尺寸。",
+        "web_reason_paraphrase_en": "The screens look life-size in relation to room furniture at the start."
+      },
+      {
+        "dimension": "input_responsiveness",
+        "raw_score": 2,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "两段录像的第 2 秒选中，第 3 秒抬手。蓝屏上缘同时从图像第 410 行移到第 378 行。独立的官方三维位移判定也全部通过。",
+        "web_reason_paraphrase_en": "The reviewer reports zero translation when the ray selects or drags at 2–3 s."
+      },
+      {
+        "dimension": "physically_realistic_behavior",
+        "raw_score": 3,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "两段第 3 秒屏幕随手上升，第 4 秒降回，第 5 秒结束选择。判词所称未发生抓取、物体始终静止与画面不符。",
+        "web_reason_paraphrase_en": "The reviewer sees no grab transition or screen movement at 3 s."
+      },
+      {
+        "dimension": "interaction_feedback",
+        "raw_score": 3,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "画面确有白色指示点。比较相同蓝屏内部，1.5 秒指向、2 秒选中、5 秒释放时色调依次变化。封存代码也有悬停、选中和松手亮度处理。",
+        "web_reason_paraphrase_en": "The reviewer sees a white reticle at 2 s and reports no other selection change."
+      },
+      {
+        "dimension": "spatial_error_prevention",
+        "raw_score": 4,
+        "evidence_status": "supported",
+        "evidence_note_zh": "逐帧查看两段视频，三块面板在被测动作中保持可辨的形状，未见飞出或坍缩。",
+        "web_reason_paraphrase_en": "The screens stay stable without collapsing, clipping or flying away."
+      },
+      {
+        "dimension": "contextual_placement",
+        "raw_score": 4,
+        "evidence_status": "supported",
+        "evidence_note_zh": "两段 0 秒画面均可见三屏在使用者前方展开，左右屏朝向中央视点，与中间屏形成环绕式起始布局。",
+        "web_reason_paraphrase_en": "The three panels start in a natural arc in front of the user."
+      },
+      {
+        "dimension": "clutter_control",
+        "raw_score": 4,
+        "evidence_status": "supported",
+        "evidence_note_zh": "两段 0 秒及后续操作中的应用主要元素为三块面板，未见额外菜单或计分窗；场景中另有客厅家具、模拟手和指示点。",
+        "web_reason_paraphrase_en": "The three panels leave the viewport uncluttered."
+      }
+    ]
+  },
+  "orchard-reach": {
+    "visible_mode": "Auto",
+    "backend_model": null,
+    "raw_response_json_sha256": "f559b5ba9fb54d8ec6f272bec21b14abd83a802b2ed08d1ae7af1f8126bb1132",
+    "raw_ten_item_mean": 2.6,
+    "evidence_accepted_mean": null,
+    "official_api_design_score": null,
+    "evidence_counts": {
+      "conflict": 5,
+      "insufficient": 4,
+      "partial": 1
+    },
+    "items": [
+      {
+        "dimension": "prompt_alignment",
+        "raw_score": 2,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "三段 0.00 秒均有多个苹果、篮筐、活动通道及进度牌。网页将交互未达成归因于整个场景或录像缺失，这一前提与封存录像冲突。右手篮外用例确实没能把苹果带离原处，能支持该功能存在问题。",
+        "web_reason_paraphrase_en": "The reviewer attributes the lack of interaction to missing recordings or scene content at 0 s."
+      },
+      {
+        "dimension": "visual_quality",
+        "raw_score": 3,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "三段开场及各自 2.00 秒可辨带叶的红苹果、篮沿、半透明通道等定制物件。“空视口或占位”与可见内容不符。画面有内容本身不能证明美术质量高。",
+        "web_reason_paraphrase_en": "The reviewer describes an empty viewport or fallback assets across all clips."
+      },
+      {
+        "dimension": "spatial_anchoring",
+        "raw_score": 3,
+        "evidence_status": "insufficient",
+        "evidence_note_zh": "0 至 2 秒视角转向目标，右手与篮外两段在 1 至 2 秒间可见视角改变。判词未指出哪个物体相对哪个固定参照物漂移。缺少逻辑的归因无法从这些画面确定。",
+        "web_reason_paraphrase_en": "The reviewer attributes absent stable placement to missing app logic."
+      },
+      {
+        "dimension": "scale_consistency",
+        "raw_score": 3,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "三段开场均可在同一画面比较苹果、篮筐和模拟手。判词称没有虚拟资产可供比较，其前提冲突；它未对实际可见的比例作出说明。",
+        "web_reason_paraphrase_en": "The reviewer says that at 0 s the virtual assets are absent, preventing a scale check."
+      },
+      {
+        "dimension": "input_responsiveness",
+        "raw_score": 2,
+        "evidence_status": "partial",
+        "evidence_note_zh": "右手篮外用例记录按着苹果时其世界位置的位移为 0 米，要求大于 0.1 米。左手入篮片 1 至 2 秒发生目标外观变化，3 至 4 秒通道颜色也有变化。“所有输入均无响应”超出了该程序失败和画面能支持的范围。",
+        "web_reason_paraphrase_en": "The reviewer sees no ray or controller response at 1–4 s."
+      },
+      {
+        "dimension": "physically_realistic_behavior",
+        "raw_score": 2,
+        "evidence_status": "insufficient",
+        "evidence_note_zh": "右手入篮片 2 至 3 秒可见红色物体的屏幕位置变化，末帧进度牌仍显示 0 of 6。画面不足以区分物体位移的成因或判定碰撞事件。首次右手篮外测试在松手前中断。源码含释放和物理处理分支；代码存在不能证明本轮实际进入了该分支。",
+        "web_reason_paraphrase_en": "The reviewer describes no gravity or collision response in the three clips."
+      },
+      {
+        "dimension": "interaction_feedback",
+        "raw_score": 2,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "左手入篮片在 1 秒可见浅色目标环，2 秒目标外观变化，3 秒通道呈橙色，4 秒恢复蓝色。右手入篮及篮外片在 2 秒可见目标环。具体输入事件与每一种描边、准星的对应关系未全部验证，但“一切提示缺失”不符合画面。",
+        "web_reason_paraphrase_en": "The reviewer sees no pointing, selection or reticle feedback at 2 s."
+      },
+      {
+        "dimension": "spatial_error_prevention",
+        "raw_score": 3,
+        "evidence_status": "insufficient",
+        "evidence_note_zh": "右手篮外用例停在持有时的位移断言，尚未执行篮外松手及两秒后检查是否回枝。封存源码含回枝函数。既不能将未执行的恢复断言记为失败，也不能由有函数判为通过。",
+        "web_reason_paraphrase_en": "The reviewer concludes that safety bounds and recovery were not implemented."
+      },
+      {
+        "dimension": "contextual_placement",
+        "raw_score": 3,
+        "evidence_status": "insufficient",
+        "evidence_note_zh": "三段开场均可看到篮筐后方的进度牌及朝向活动苹果的通道，左手片 1 秒能同时看到目标、通道、篮筐和进度牌。判词未指出哪一个摆放关系妨碍操作；短片也不能证明摆放舒适。",
+        "web_reason_paraphrase_en": "The reviewer says that progress indicators and corridors lack an appropriate layout at 0 s."
+      },
+      {
+        "dimension": "clutter_control",
+        "raw_score": 3,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "三段开场均出现果实、篮筐、通道和界面文字，2 秒仍可见。“画面是空的、缺少应用界面”与证据冲突。布局是否过于拥挤仍需就实际元素给出理由。",
+        "web_reason_paraphrase_en": "The reviewer describes an empty viewport missing the app UI."
+      }
+    ]
+  },
+  "digital-beerpong": {
+    "visible_mode": "Auto",
+    "backend_model": null,
+    "raw_response_json_sha256": "02c067669b368e8811b0cebfe0a81f4a56fc66bff35e67b5046924e40be5489c",
+    "raw_ten_item_mean": 5.0,
+    "evidence_accepted_mean": null,
+    "official_api_design_score": null,
+    "evidence_counts": {
+      "partial": 7,
+      "supported": 2,
+      "conflict": 1
+    },
+    "items": [
+      {
+        "dimension": "prompt_alignment",
+        "raw_score": 5,
+        "evidence_status": "partial",
+        "evidence_note_zh": "两段计分片的开场有六杯和显示剩10球、进0杯的记分牌。速度片可见捏合后手中出现橙球。右手速度片2.0秒仍是持球，2.5秒的控制动作才释放。",
+        "web_reason_paraphrase_en": "The reviewer identifies six cups and the starting 10/0 scoreboard, plus ball spawning and release."
+      },
+      {
+        "dimension": "visual_quality",
+        "raw_score": 5,
+        "evidence_status": "supported",
+        "evidence_note_zh": "投失片1.5秒从桌边看见红边白杯和房间材质。右手计分片2.0秒俯视时，杯沿、桌面纹理与深色记分条均可辨。",
+        "web_reason_paraphrase_en": "The reviewer describes clean meshes, materials and lighting in the miss and right-hand clips."
+      },
+      {
+        "dimension": "spatial_anchoring",
+        "raw_score": 5,
+        "evidence_status": "partial",
+        "evidence_note_zh": "投失片1秒切换到桌边低机位，至5秒，可见杯子与桌边及房间的相对位置基本稳定。应用把计分牌实现为固定于视口的 UIOverlay，不能把它一并认定为固定在房间里的物体。",
+        "web_reason_paraphrase_en": "The table and room objects appear steady during movement in the miss clip at 1–5 s."
+      },
+      {
+        "dimension": "scale_consistency",
+        "raw_score": 5,
+        "evidence_status": "partial",
+        "evidence_note_zh": "能比较杯子与手、桌面和书本的相对大小。右手计分片2.0秒与左手计分片5.0秒均是俯视；平视在开场。",
+        "web_reason_paraphrase_en": "The reviewer judges relative scales of the cups, balls and room to be life-size."
+      },
+      {
+        "dimension": "input_responsiveness",
+        "raw_score": 5,
+        "evidence_status": "partial",
+        "evidence_note_zh": "网页引用的左手2.0秒及右手6.0秒均是捏合后仍在持球的检查点。相邻的2.5及6.5秒是对应慢投和快投的释放动作。独立的原版程序在左右手均量得快投后100毫秒的水平位移大于慢投。",
+        "web_reason_paraphrase_en": "The reviewer says pinching and release reliably map hand velocity to throwing in both speed clips."
+      },
+      {
+        "dimension": "physically_realistic_behavior",
+        "raw_score": 5,
+        "evidence_status": "partial",
+        "evidence_note_zh": "左手计分片由4.0秒的红边杯变成4.5至5.0秒的绿杯；记分牌随后可读为剩9球、进1杯。",
+        "web_reason_paraphrase_en": "The reviewer attributes predictable bouncing, cup entry and score changes to the action at 5 s in the left clip."
+      },
+      {
+        "dimension": "interaction_feedback",
+        "raw_score": 5,
+        "evidence_status": "partial",
+        "evidence_note_zh": "右手计分片中，4.0秒目标杯仍为红边，4.5秒松手检查点已变绿，5.0秒时状态是剩9球、进1杯。颜色和数字提供两种相互印证的反馈。",
+        "web_reason_paraphrase_en": "The reviewer says the right clip at 5 s shows the cup turning green, the count rising and the ball being removed."
+      },
+      {
+        "dimension": "spatial_error_prevention",
+        "raw_score": 5,
+        "evidence_status": "conflict",
+        "evidence_note_zh": "网页把右手速度片8.0秒列为球已正确移除的观察依据。末帧中桌面右侧仍能看到橙球，记分牌为剩9球、进0杯。该帧与所引用的已清理状态冲突。",
+        "web_reason_paraphrase_en": "The reviewer cites 8 s in the right-hand velocity clip as evidence that balls are cleared."
+      },
+      {
+        "dimension": "contextual_placement",
+        "raw_score": 5,
+        "evidence_status": "partial",
+        "evidence_note_zh": "开场记分条位于视野中上部，能同时看到六杯。视角切换成俯视后，记分条仍保持在视野的相近位置。封存代码采用 UIOverlay 的 top/left 布局。",
+        "web_reason_paraphrase_en": "The reviewer considers the scoreboard readable above the play area at time zero."
+      },
+      {
+        "dimension": "clutter_control",
+        "raw_score": 5,
+        "evidence_status": "supported",
+        "evidence_note_zh": "开场里六杯成组，计数、进球数和 Replay 集中在一条主状态栏。场内另有一行小字说明捏合和松手，俯视时能辨认两类信息，未见层叠窗口遮盖投球目标。",
+        "web_reason_paraphrase_en": "The reviewer sees a single compact scoreboard and little clutter in the opening left-hand frame."
+      }
+    ]
+  }
+}

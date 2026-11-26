@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "Cite this independent reproduction for the local three-task results. Cite Huang et al. for the benchmark."
+title: "GenXR-Bench Reproduction: three tasks from application generation to held-out XR evaluation"
+authors:
+  - name: "Ayumi-331"
+type: software
+version: "1.0.0"
+date-released: 2026-11-26
+keywords:
+  - WebXR
+  - coding agents
+  - reproducibility
+  - spatial interaction
+references:
+  - type: report
+    title: "GenXR-Bench: Benchmarking Coding Agents for Interactive XR Development"
+    authors:
+      - family-names: Huang
+        given-names: William
+      - family-names: Li
+        given-names: David
+      - family-names: Chen
+        given-names: "Xiang 'Anthony'"
+      - family-names: Qian
+        given-names: Xun
+      - family-names: Numan
+        given-names: Nels
+      - family-names: Zhou
+        given-names: Zhongyi
+      - family-names: Cho
+        given-names: Hyunsung
+      - family-names: Chishti
+        given-names: Salman Muin Kayser
+      - family-names: Xia
+        given-names: Ding
+      - family-names: Huang
+        given-names: Xincheng
+      - family-names: Ren
+        given-names: Jiahao
+      - family-names: Faruqi
+        given-names: Faraz
+      - family-names: Xu
+        given-names: Tianyu
+      - family-names: Zhang
+        given-names: Yang
+      - family-names: Kim
+        given-names: David
+      - family-names: Du
+        given-names: Ruofei
+    year: 2026
+    doi: 10.48550/arXiv.2610.29014
+    url: https://arxiv.org/abs/2610.29014v2

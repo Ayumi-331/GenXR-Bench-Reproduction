@@ -1,0 +1,21 @@
+agent:
+  step_limit: 128
+  wall_time_limit_seconds: 7200
+  max_consecutive_format_errors: 1
+model:
+  model_class: orchard_header_guard.HeaderCheckedDeepSeek
+  cost_tracking: default
+  litellm_model_registry: /opt/genxr-direct/model-prices.json
+  model_kwargs:
+    api_base: https://api.deepseek.com
+    num_retries: 0
+    max_retries: 0
+    timeout: 240
+    extra_body:
+      thinking:
+        type: enabled
+environment:
+  env:
+    DEEPSEEK_API_KEY: ''
+    MSWEA_API_KEY: ''
+    OPENAI_API_KEY: ''

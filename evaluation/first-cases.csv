@@ -1,0 +1,11 @@
+task,case,test,required,hand,raw_status,interpretation,first_message,elapsed_ms,video
+focus-mode,f2p.test.ts:test-1,The user can move three opaque focus screens,True,right,passed,passed,,17970.09578,media/focus-mode/focus-mode-right.mp4
+focus-mode,f2p.test.ts:test-1,The user can move three opaque focus screens,True,left,passed,passed,,20156.909312,media/focus-mode/focus-mode-left.mp4
+orchard-reach,f2p.test.ts:test-1,"The apple enters the basket, the corridor turns green, and progress increases",True,right,failed,missing_visual_judge,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,16839.620406000002,media/orchard-reach/orchard-reach-basket-right.mp4
+orchard-reach,f2p.test.ts:test-1,"The apple enters the basket, the corridor turns green, and progress increases",True,left,failed,missing_visual_judge,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,17796.144628,media/orchard-reach/orchard-reach-basket-left.mp4
+orchard-reach,f2p.test.ts:test-2,an apple that falls outside the basket returns to its branch,True,right,failed,required_program_assertion_failed,expected 0 to be greater than 0.1,10494.208586,media/orchard-reach/orchard-reach.mp4
+digital-beerpong,f2p.test.ts:test-1,Throwing a spawned ball downward into a cup scores,True,right,failed,missing_visual_judge,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,20432.934246,media/digital-beerpong/digital-beerpong-right.mp4
+digital-beerpong,f2p.test.ts:test-1,Throwing a spawned ball downward into a cup scores,True,left,failed,missing_visual_judge,AI requires GOOGLE_GENERATIVE_AI_API_KEY.,21748.471715,media/digital-beerpong/digital-beerpong-left.mp4
+digital-beerpong,f2p.test.ts:test-2,A ball thrown away from the cups is removed from the runtime,True,right,failed,required_program_assertion_failed,expected [] to have a length of 1 but got +0,22238.524259000005,media/digital-beerpong/digital-beerpong-miss.mp4
+digital-beerpong,f2p.test.ts:test-3,A faster hand movement releases the ball with more velocity,True,right,passed,passed,,25140.506883000002,media/digital-beerpong/digital-beerpong-velocity-right.mp4
+digital-beerpong,f2p.test.ts:test-3,A faster hand movement releases the ball with more velocity,True,left,passed,passed,,23912.252022,media/digital-beerpong/digital-beerpong-velocity-left.mp4

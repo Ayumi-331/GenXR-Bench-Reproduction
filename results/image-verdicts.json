@@ -1,0 +1,128 @@
+[
+  {
+    "task": "orchard-reach",
+    "hand": "left",
+    "source": "sealed images / original model API",
+    "returned_model": "gemini-3.8-flash",
+    "verdict": false,
+    "reason": "The apple has not fallen or settled inside the basket, the guide path remains blue rather than turning green, and the progress counter is still at 0 of 6.",
+    "request_sha256": "13bab24b64a7fb819bc981afaa2e181892fd78039f6c2161315d2739c7c7508e",
+    "response_sha256": "aab3c5efb8e857d5f5767f29cd9a739fc21f3efeb31e252708a5b661408349f9",
+    "evidence_images": [
+      {
+        "ordinal": 1,
+        "label": "Image evidence (Before basket):",
+        "file": "media/orchard-reach/left-basket-image-01.png",
+        "sha256": "0c8ddd54e0b828a27d31f442b6d8f8d2794d568f07cbff9be89361eb252da6b4"
+      },
+      {
+        "ordinal": 2,
+        "label": "Image evidence (Apple settled in basket):",
+        "file": "media/orchard-reach/left-basket-image-02.png",
+        "sha256": "513b6e1be995abc7cb2c6ca30e371035f5cc4e9b8b7b607cfb4bd0e3e0827d4d"
+      }
+    ]
+  },
+  {
+    "task": "orchard-reach",
+    "hand": "right",
+    "source": "sealed images / original model API",
+    "returned_model": "gemini-3.8-flash",
+    "verdict": false,
+    "reason": "The evidence images are identical. The apple did not settle in the basket, the guide path remains blue instead of turning green, and the progress counter still displays 0 of 6 instead of advancing to 1 of 6.",
+    "request_sha256": "aff48e2cc686a9cb2dc9e000f7f7d9929dfd9ae7bc9ef6df0b37d05a9f03c4ad",
+    "response_sha256": "aecea652cf1caebc0805f370ba1fccedda0c9089c67e3ef00086b0340b5fe07c",
+    "evidence_images": [
+      {
+        "ordinal": 1,
+        "label": "Image evidence (Before basket):",
+        "file": "media/orchard-reach/right-basket-image-01.png",
+        "sha256": "2d069dd8a75ed9ff4ac2276c38d0721ab249f7e16fa1721a2adc6d583dc68781"
+      },
+      {
+        "ordinal": 2,
+        "label": "Image evidence (Apple settled in basket):",
+        "file": "media/orchard-reach/right-basket-image-02.png",
+        "sha256": "c139191ff415c7b3df93a976ff1da31cf27728f3ef1966f591162decc17c0d4f"
+      }
+    ]
+  },
+  {
+    "task": "digital-beerpong",
+    "hand": "left",
+    "source": "sealed images / original model API",
+    "returned_model": "gemini-3.8-flash",
+    "verdict": true,
+    "reason": "The evidence shows six cups positioned in a triangle formation on the table at start without any manual placement prompt. The subsequent image demonstrates a score, with the target cup highlighted in green containing a ball, and the scoreboard updating to reflect 1 cup scored and 9 balls remaining.",
+    "request_sha256": "84021f01a9a7aaabc103a8be626519e614701b6b32dc9c18fb05c6f79cfd0536",
+    "response_sha256": "bbc2d40c2fd7e203d83bc4c43db91e33497ff86c8a24047b7b45c788d06d78b4",
+    "evidence_images": [
+      {
+        "ordinal": 1,
+        "label": "Image evidence (Automatic cup layout):",
+        "file": "media/digital-beerpong/left-score-image-01.png",
+        "sha256": "6e8e0a9424de549c558507ae5537efd661b34c1d312464214abbb0d486043230"
+      },
+      {
+        "ordinal": 2,
+        "label": "Image evidence (After direct score):",
+        "file": "media/digital-beerpong/left-score-image-02.png",
+        "sha256": "60ecdab8c53394f2b8b4158219c375847cd36e69da8e6b42de5247d9309d6cbf"
+      }
+    ]
+  },
+  {
+    "task": "digital-beerpong",
+    "hand": "right",
+    "source": "sealed images / original model API",
+    "requested_model": "gemini-3.8-flash",
+    "returned_model": null,
+    "http": [
+      502,
+      502
+    ],
+    "verdict": null,
+    "request_sha256": "81b6263fb7f1689e4cad3fd4ed7b5b280ebb531967b814091cf004dc43e2899b",
+    "evidence_images": [
+      {
+        "ordinal": 1,
+        "label": "Image evidence (Automatic cup layout):",
+        "file": "media/digital-beerpong/right-score-image-01.png",
+        "sha256": "c9389e294f5041a6e7ca9e9aa6f088cb047219e9c723829370452631943a27d9"
+      },
+      {
+        "ordinal": 2,
+        "label": "Image evidence (After direct score):",
+        "file": "media/digital-beerpong/right-score-image-02.png",
+        "sha256": "e9985827b260b7c7e86e402f7b1528e6420b32253641d46d63e7a73c3bb80a3b"
+      }
+    ]
+  },
+  {
+    "task": "digital-beerpong",
+    "hand": "right",
+    "source": "separate Gemini web Auto review",
+    "returned_model": null,
+    "verdict": true,
+    "reason": "The images show six cups automatically set up on a horizontal room surface without a placement step (Attachment 1), and a subsequent view shows a target cup successfully scored and highlighted in green with the score updated (Attachment 2), meeting all requirements.",
+    "raw_response_json_sha256": "13fb8dca222808fd7aa4382c0f93324dfcda7c94c38228f15e075d23f99a7319",
+    "input_sha256": [
+      "c9389e294f5041a6e7ca9e9aa6f088cb047219e9c723829370452631943a27d9",
+      "e9985827b260b7c7e86e402f7b1528e6420b32253641d46d63e7a73c3bb80a3b"
+    ],
+    "evidence_images": [
+      {
+        "ordinal": 1,
+        "label": "Image evidence (Automatic cup layout):",
+        "file": "media/digital-beerpong/right-score-image-01.png",
+        "sha256": "c9389e294f5041a6e7ca9e9aa6f088cb047219e9c723829370452631943a27d9"
+      },
+      {
+        "ordinal": 2,
+        "label": "Image evidence (After direct score):",
+        "file": "media/digital-beerpong/right-score-image-02.png",
+        "sha256": "e9985827b260b7c7e86e402f7b1528e6420b32253641d46d63e7a73c3bb80a3b"
+      }
+    ]
+  }
+]
